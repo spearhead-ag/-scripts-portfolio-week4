@@ -20,7 +20,7 @@ getNumber()
     done
 }
 
-echo "Guess the correct number!"
+echo "Guess the Right number!"
 getNumber "Please type a number between 1 and 100" 1 100
 echo "Thank you!"
 #set -x
@@ -43,7 +43,7 @@ do
     echo "Thank you!"
     #If the number is 42, the game should print 'Correct!'
     if [ $REPLY -eq 42 ]; then
-    echo "$REPLY is the correct number. Good guess!"
+    echo "$REPLY is the Right number. Good guess!"
     exit 0
     fi
 done
