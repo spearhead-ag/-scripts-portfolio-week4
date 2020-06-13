@@ -12,3 +12,5 @@ echo "$info" | sed -n '/IP Address: / {p}'
 
 #format output
 #echo -e "IP addresses on this computer are:\n$IP_only"
+
+read -t 5 -p " "
